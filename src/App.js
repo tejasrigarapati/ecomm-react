@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import './App.css'; 
+import './App.css'; // This imports the CSS file from the same directory as the JavaScript file.
+
 
 function App() {
   const [products] = useState([
-     { name: "Live-1", description:  "Live live magazines bring events to life with vivid imagery and real-time reporting.", price: 1, image: "/ECOMM-REACT/images1/a.jpeg", button: "Add" },
+     { name: "Live-1", description:  "Live live magazines bring events to life with vivid imagery and real-time reporting.", price: 1, image: "ECOMM-REACT/images1/a.jpeg", button: "Add" },
       { name: "Live-2", description: "Experience the pulse of the moment with live live magazines, capturing the essence of unfolding stories.", price: 2, image: "/ECOMM-REACT/images1/b.jpeg", button: "Add" },
       { name: "Live-3", description: "Engage in dynamic storytelling with live live magazines, offering immersive experiences beyond the page.", price: 3, image: "/ECOMM-REACT/images1/c.jpeg", button: "Add" },
       { name: "Live-4", description: "Stay connected to the world's happenings with live live magazines, delivering news as it unfolds.", price: 4, image: "/ECOMM-REACT/images1/d.jpeg", button: "Add" },
