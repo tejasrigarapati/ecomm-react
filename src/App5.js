@@ -6,9 +6,13 @@ export default function App5() {
     const [wickets, setWickets] =useState(0);
      console.log("Component loaded");
      useEffect(()=>{
-        console.log("better luck next time");
-     },
-     [wickets]);
+      if (wickets>o) console.log('wickets:${wickets}.better luck next time');
+     },[wickets]);
+     useEffect(()=>{
+      if (runs>o) console.log('good job score:${runs}');
+     },[runs]);
+  
+  
      
   return (
 

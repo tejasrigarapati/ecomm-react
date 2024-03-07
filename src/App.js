@@ -4,12 +4,12 @@ import './App.css'; // This imports the CSS file from the same directory as the 
 
 function App() {
   const [products] = useState([
-     { name: "Live-1", description:  "Live live magazines bring events to life with vivid imagery and real-time reporting.", price: 1, image: "ECOMM-REACT/images1/a.jpeg", button: "Add" },
-      { name: "Live-2", description: "Experience the pulse of the moment with live live magazines, capturing the essence of unfolding stories.", price: 2, image: "/ECOMM-REACT/images1/b.jpeg", button: "Add" },
-      { name: "Live-3", description: "Engage in dynamic storytelling with live live magazines, offering immersive experiences beyond the page.", price: 3, image: "/ECOMM-REACT/images1/c.jpeg", button: "Add" },
-      { name: "Live-4", description: "Stay connected to the world's happenings with live live magazines, delivering news as it unfolds.", price: 4, image: "/ECOMM-REACT/images1/d.jpeg", button: "Add" },
-      { name: "Live-5", description: "Immerse yourself in the now with live live magazines, offering a glimpse into the heartbeat of society.", price: 5, image: "/ECOMM-REACT/images1/e.jpeg", button: "Add" },
-      { name: "Live-6", description: "From concerts to conferences, live live magazines provide a front-row seat to the world's events in real-time.", price: 6, image: "/ECOMM-REACT/images1/f.jpeg", button: "Add" },
+     { name: "Live-1", description:  "Live live magazines bring events to life with vivid imagery and real-time reporting.", price: 1, image: "/ecomm-react/images1/a.jpeg", button: "Add" },
+      { name: "Live-2", description: "Experience the pulse of the moment with live live magazines, capturing the essence of unfolding stories.", price: 2, image: "/ecomm-react/images1/b.jpeg", button: "Add" },
+      { name: "Live-3", description: "Engage in dynamic storytelling with live live magazines, offering immersive experiences beyond the page.", price: 3, image: "/ecomm-react/images1/c.jpeg", button: "Add" },
+      { name: "Live-4", description: "Stay connected to the world's happenings with live live magazines, delivering news as it unfolds.", price: 4, image: "/ecomm-react/images1/d.jpeg", button: "Add" },
+      { name: "Live-5", description: "Immerse yourself in the now with live live magazines, offering a glimpse into the heartbeat of society.", price: 5, image: "/ecomm-react/images1/e.jpeg", button: "Add" },
+      { name: "Live-6", description: "From concerts to conferences, live live magazines provide a front-row seat to the world's events in real-time.", price: 6, image: "/ecomm-react/images1/f.jpeg", button: "Add" },
   ]);
 
   return (
