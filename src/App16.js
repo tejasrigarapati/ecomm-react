@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Container from "./Container";
+import container from "./container";
 export default function App16() {
   const [flag, setflag] = useState(0);
   const disp = () => {};

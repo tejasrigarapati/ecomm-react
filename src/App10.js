@@ -8,7 +8,7 @@ export default function App10() {
   return (
     <div>
       <UserContext.Provider value={{user,email}}>
-        <h2>hello{User) from App10 Component</h2>
+        <h2>hello{User} from App10 Component</h2>
         <Child/>
         </UserContext.Provider>
 
